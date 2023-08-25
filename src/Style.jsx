@@ -62,6 +62,10 @@ background-size: cover;
 -o-background-size: cover;
 background-attachment: fixed;
 background-image: url('https://github.com/samuelDev239/PortifolioDev/blob/main/src/img/fundo.jpg?raw=true');
+@media (max-width: 500px) {
+    background-attachment: scroll;
+}
+  
 &:after{
     content: "";
     height: 100%;
@@ -75,6 +79,9 @@ background-image: url('https://github.com/samuelDev239/PortifolioDev/blob/main/s
 
 `
 export const SectionTre = styled.section `
+@media (max-width: 500px) {
+    background-attachment: scroll;
+}
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -180,6 +187,9 @@ background-size: cover;
 background-attachment: fixed;
 background-image: url('https://github.com/samuelDev239/PortifolioDev/blob/main/src/img/parallax3.png?raw=true');
 background-position: 50% 30%;
+@media (max-width: 500px) {
+    background-attachment: scroll;
+}
 &:after{
     content: "";
     height: 100%;
@@ -207,6 +217,9 @@ background-size: cover;
 -webkit-background-size: cover;
 -o-background-size: cover;
 background-attachment: fixed;
+@media (max-width: 500px) {
+    background-attachment: scroll;
+}
 background-image: url('https://github.com/samuelDev239/PortifolioDev/blob/main/src/img/moss.jpg?raw=true');
 background-position: 30% 80%;
 &:after{
@@ -494,6 +507,7 @@ font-size: 22px;
 color: white;
 `
 export const CardButton = styled.button`
+border: none;
 
 font-family: 'Sora', sans-serif;
 font-weight: 400;
