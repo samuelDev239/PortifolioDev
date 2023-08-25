@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+p {
+    color: #fff;
+    font-size: 28px;
+    font-family: 'Sora', sans-serif;
+    font-weight: 300;
+    
+}
+body {
+    scroll-behavior: smooth;
+}
