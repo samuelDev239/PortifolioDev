@@ -31,7 +31,7 @@ const CardPessoal = () => {
             </Alinhador>
        
         </ItemsPessoal>
-        <ImagePessoal src = "../src/img/imagePessoal.jpg"></ImagePessoal>
+        <ImagePessoal src = "https://github.com/samuelDev239/PortifolioDev/blob/main/src/img/imagePessoal.jpg?raw=true"></ImagePessoal>
     </Pessoal>
   )
 }
