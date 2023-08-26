@@ -35,6 +35,7 @@ import "./App.css";
 import Nav from "./components/Nav";
 import CardPadrao from "./components/CardPadrao";
 import GridTable from "./components/GridTable";
+import CardPessoal from "./components/CardPessoal";
 
 
 function App() {
@@ -127,13 +128,16 @@ function App() {
         <TituloParallaxAlt>Contato</TituloParallaxAlt>
       </SectionTre>
       <WhiteDiv>
+        <CardPessoal></CardPessoal>
+      </WhiteDiv>
+      <WhiteDiv>
         <GridTable></GridTable>
       </WhiteDiv>
       <WhiteDiv>
         <CircleDiv><GridTextBig>Gostou?</GridTextBig></CircleDiv>
         <ParagBlack>Entre em contato comigo, estou esperando você!</ParagBlack>
       </WhiteDiv>
-      <WhiteDiv></WhiteDiv>
+   
       <Footer>
        
         <Parag> © SamuelDev 2023 </Parag>

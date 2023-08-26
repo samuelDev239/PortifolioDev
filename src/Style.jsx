@@ -536,7 +536,82 @@ export const Alinhator = styled.div`
 display: flex;
 flex-direction: column;
 `
+export const Pessoal = styled.div`
+height: 500px;
+width: 80%;
+display: flex;
+gap: 2rem;
+border-bottom: 2px solid black;
+align-items: center;
+justify-content: space-around;
+@media (max-width: 600px) {
+
+flex-direction: column-reverse;
+align-items: center;
+gap: 1rem;
+height: auto;
+padding: 1rem;
+}
+`
+export const ImagePessoal = styled.img`
+width: 400px;
+height: 400px;
+border-radius: 20px;
+@media (max-width: 600px) {
+
+    width: 300px;
+height: 300px;
+}
+
+`
+    
+export const ItemsPessoal = styled.div`
+width: 50%;
+height: 450px;
+display: flex;
+flex-direction: column;
+gap: 2rem;
+@media (max-width: 600px) {
+
+width: 80%;
+text-align: center;
+
+}
+
+`
+export const Progresso = styled.div`
+    
+    background-color: #2de10d;
+    `
+export const Barra = styled.div`
+width: 80%;
+height: 20px;
+border-radius: 20px;
+background-color: #d4d4d4;
+> ${Progresso} {
+    height: 100%;
+    border-radius: 20px;
+}
+
+`
+export const Alinhador = styled.div`
+width: auto;
+height: 100px;
+display: flex;
+justify-content: start;
+flex-direction: column;
+gap: 1rem;
+align-items: start;
+@media (max-width: 600px) {
 
 
+${ParagBlack} {
+    text-align: center;
+
+}
+
+}
+
+`
 
 
